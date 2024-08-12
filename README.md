@@ -24,18 +24,18 @@ I'm a Machine Learning Engineer with a passion for creating innovative AI soluti
 
 ## 💼 Experience
 
-- **Machine Learning Engineer** @ [Company Name] (2023 - Present)
+- **Machine Learning Engineer** @ [capgemini] (2023 - Present)
   - Developed and deployed AI models for sentiment analysis and predictive analytics.
   - Optimized machine learning pipelines, reducing training time by 30%.
 
-- **Data Scientist Intern** @ [Company Name] (2022 - 2023)
+- **Data Scientist Intern** @ [capgemini] (2022 - 2023)
   - Analyzed large datasets to extract actionable insights and improve business outcomes.
   - Automated data processing tasks using Python and SQL.
 
 ## 🎓 Education
 
-- **M.S. in Information Technology** - Southern New Hampshire University (2021 - 2023)
-- **B.S. in Electronics and Communication Engineering** - [JNTUH] (2017 - 2021)
+- **M.S. in Information Technology** - Southern New Hampshire University (2022 - 2024)
+- **B.S. in Electronics and Communication Engineering** - [JNTUH] (2016 - 2020)
 
 ## 📫 Contact Me
 
