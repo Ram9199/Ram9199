@@ -35,13 +35,13 @@ I'm a Machine Learning Engineer with a passion for creating innovative AI soluti
 ## 🎓 Education
 
 - **M.S. in Information Technology** - Southern New Hampshire University (2021 - 2023)
-- **B.S. in Computer Science** - [University Name] (2017 - 2021)
+- **B.S. in Electronics and Communication Engineering** - [JNTUH] (2017 - 2021)
 
 ## 📫 Contact Me
 
 - **Email:** [prakhyasriram@gmail.com](mailto:prakhyasriram@gmail.com)
 - **LinkedIn:** [Sriram Prakhya](https://www.linkedin.com/in/username)
-- **GitHub:** [Sriram Prakhya](https://github.com/username)
+- **GitHub:** [Sriram Prakhya](https://github.com/Ram9199)
 - **Website:** [sriramprakhya.com](https://sriramprakhya.com)
 
 ## 📈 GitHub Stats
