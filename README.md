@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Multi-Agent+RAG+Architect;Open-Source+Founder;Futurist+Thinker" alt="typing banner">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Multi-Agent+RAG+Architect;Open-Source+Founder;Futurist+Thinker;Builder+of+Trustworthy+AI" alt="typing banner">
 </p>
 
 ---
@@ -45,17 +45,20 @@
   <img src="https://streak-stats.demolab.com?user=Ram9199&theme=radical&hide_border=true" height="165" alt="GitHub streak">
 </p>
 
-<!-- Use absolute URLs so it works before Actions finish the first run -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/main/metrics.svg" alt="Metrics" width="90%">
 </p>
 
 <p align="center">
-  <!-- If your snake workflow publishes to 'output' branch (as in our setup), keep this URL: -->
-  <!-- <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/assets/github-snake.svg" alt="Snake animation">-->
-  <!-- If you switch to committing on 'main' (assets/github-snake.svg), replace with: -->
   <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/main/assets/github-snake.svg" alt="Snake animation">
 </p>
+
+---
+
+## 📝 Latest from Medium
+<!-- MEDIUM:START -->
+*(Articles auto-populate here once you add the Medium workflow)*
+<!-- MEDIUM:END -->
 
 ---
 
@@ -77,6 +80,20 @@
 - Multi-agent **healthcare copilots** that think like teams.
 - Exploring **Android–AI convergence** (ROMs infused with AI).
 - Writing the future on [Medium](https://medium.com/@venkataprakhya7).
+
+---
+
+## 🏆 Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ram9199&theme=onestar&no-frame=true&row=1&column=6" alt="trophies">
+</p>
+
+---
+
+## 🌌 3D Contributions
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ram9199/metrics-renders/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contributions">
+</p>
 
 ---
 
