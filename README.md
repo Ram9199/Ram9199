@@ -52,7 +52,7 @@
 
 <p align="center">
   <!-- If your snake workflow publishes to 'output' branch (as in our setup), keep this URL: -->
-  <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/output/github-snake.svg" alt="Snake animation">
+  <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/assets/github-snake.svg" alt="Snake animation">
   <!-- If you switch to committing on 'main' (assets/github-snake.svg), replace with:
   <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/main/assets/github-snake.svg" alt="Snake animation">
   -->
