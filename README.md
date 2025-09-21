@@ -96,9 +96,8 @@
 
 ## 🌌 3D Contributions
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ram9199/metrics-renders/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contributions">
+  <img src="./metrics-renders/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contributions">
 </p>
-
 ---
 
 <p align="center"><b>⚡ Let’s build systems the future kneels to ⚡</b></p>
