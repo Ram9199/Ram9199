@@ -1,0 +1,36 @@
+name: profile-3d
+on:
+  schedule: [{cron: "0 5 * * 1"}]   # Mondays 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          USERNAME: Ram9199
+          # Optional theme tweaks:
+          # SETTINGS: |
+          #   base: 10
+          #   margin: 4
+          #   theme: neon
+
+      - name: Stage renders under metrics-renders/
+        run: |
+          mkdir -p metrics-renders/profile-3d-contrib
+          mv profile-3d-contrib/* metrics-renders/profile-3d-contrib/
+
+      - name: Commit renders
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics-renders
+          git commit -m "chore(3d): update renders" || echo "no changes"
+          git push
