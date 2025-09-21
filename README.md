@@ -84,6 +84,13 @@
 
 ---
 
+<!-- AI Panels -->
+<p align="center">
+  <img src="./assets/ai-panels/focus.svg" width="95%">
+  <img src="./assets/ai-panels/spotlight.svg" width="95%">
+  <img src="./assets/ai-panels/insight.svg" width="95%">
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/System%20Status-ONLINE-00ffcc?style=for-the-badge&logo=github">
 </p>
