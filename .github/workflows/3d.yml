@@ -12,24 +12,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate 3D contribution SVGs
+      # Generate 3D contribution SVGs
+      - name: Generate 3D contributions
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          USERNAME: Ram9199
-          SETTINGS: |
-             base: 10
-             margin: 4
-             theme: neon
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # built-in, no need to create
+          USERNAME: Ram9199                           # set your username here
 
+      # Move renders into a stable folder on main
       - name: Stage renders under metrics-renders/
         run: |
           mkdir -p metrics-renders/profile-3d-contrib
           mv profile-3d-contrib/* metrics-renders/profile-3d-contrib/
 
+      # Commit the files
       - name: Commit renders
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics-renders
+          git add metrics-renders/profile-3d-contrib || true
           git commit -m "chore(3d): update renders" || echo "no changes"
           git push
