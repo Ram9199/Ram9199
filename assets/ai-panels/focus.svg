@@ -1,0 +1,17 @@
+<svg width="880" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F7FF"/><stop offset="100%" stop-color="#6C2BD9"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="878" height="238" rx="18" fill="#0b1220" stroke="url(#g)" stroke-width="2"/>
+  <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Focus</text>
+  <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
+  <foreignObject x="28" y="86" width="824" height="138">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">* **Refine multi-agent RAG prompt engineering:** Implement iterative prompt variations to improve factual accuracy and consistency across agents in the simulated news summarization scenario. Target a 15% reduction in hallucination rate.
+
+* **Develop trustworthy AI orchestration framework:**  Finalize the design document for the decision-making module, incorporating bias mitigation strategies and explainability features.  Prioritize methods for detecting and resolving conflicting agent outputs.
+
+* **Integrate monitoring and logging:**  Implement comprehensive logging of agent actions, decisions, and data sources to facilitate debugging and post-hoc analysis of system behavior.  Focus on achieving full trace visibility for a representative use case.</div>
+  </foreignObject>
+</svg>

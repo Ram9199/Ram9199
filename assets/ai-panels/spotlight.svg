@@ -1,0 +1,40 @@
+<svg width="880" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F7FF"/><stop offset="100%" stop-color="#6C2BD9"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="878" height="238" rx="18" fill="#0b1220" stroke="url(#g)" stroke-width="2"/>
+  <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Spotlight</text>
+  <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
+  <foreignObject x="28" y="86" width="824" height="138">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">## Enterprise RAG Open-Source Repo Idea:  "VectorHub-RAG"
+
+**Concept:** A modular and extensible RAG framework leveraging the strengths of Pgvector for persistent vector storage and Qdrant for fast similarity search, allowing for easy swapping of different LLMs and embedding models.
+
+**• Value Proposition:**
+
+* **Flexibility and Extensibility:** Supports easy swapping of embedding models (SentenceTransformers, etc.), LLMs (Llama 2, etc.), and vector databases (switching between Pgvector and Qdrant with minimal code changes). This allows users to optimize for specific needs and cost considerations.  Includes built-in support for various document formats (PDF, DOCX, TXT, etc.).
+* **Enterprise-Grade Features:**  Focuses on robust data management, including user authentication, authorization, and version control for both documents and embeddings.  Provides mechanisms for managing large datasets efficiently, including chunking, deduplication, and efficient indexing strategies.
+* **Simplified Deployment:**  Offers dockerized deployment options and straightforward integration with existing enterprise infrastructure. Includes clear documentation and examples for various use cases.
+
+**• Technology Stack:**
+
+* **Vector Databases:** Pgvector (primary) and Qdrant (optional, for performance comparison/testing).
+* **Embedding Models:** SentenceTransformers (default), with options for others.
+* **LLMs:** LangChain integration for easy LLM swapping (supports Llama 2, OpenAI, etc.).
+* **Backend:** FastAPI (Python) for a robust and scalable API.
+* **Database:** PostgreSQL (for metadata and user management).
+* **Deployment:** Docker &amp; Docker Compose.
+
+
+**• Quickstart:**
+
+* **Clone the repo and run Docker Compose:**  The `docker-compose.yml` file will set up the entire stack (PostgreSQL, FastAPI server, Pgvector extension).
+* **Upload your documents:** Use the provided API endpoint to upload documents in supported formats.  The system automatically chunks, embeds, and indexes the documents.
+* **Query the RAG system:** Use the API endpoint to submit queries. The system will retrieve relevant documents, generate a concise answer using the chosen LLM, and return the response.  Example API calls and responses will be clearly documented.
+
+
+This project aims to provide a robust, flexible, and easy-to-use open-source RAG solution suitable for enterprise environments, prioritizing modularity and extensibility to cater to diverse needs and preferences.</div>
+  </foreignObject>
+</svg>
