@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ram9199/Ram9199/main/assets/arc-reactor.svg" width="180" alt="Arc Reactor">
+  <img src="./assets/arc-reactor.svg" width="180" alt="Arc Reactor">
 </p>
 
 ---
