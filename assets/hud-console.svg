@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arc Reactor HUD Console">
+  <title>Arc Reactor HUD Console</title>
+  <defs>
+    <!-- Neon gradient + glow -->
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F7FF"/><stop offset="100%" stop-color="#6C2BD9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Subtle orbit animation -->
+    <style><![CDATA[
+      .spin-slow { transform-origin: 600px 600px; animation: spin 60s linear infinite; }
+      .spin-rev  { transform-origin: 600px 600px; animation: spin 90s linear reverse infinite; }
+      @keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
+      .pulse { transform-origin: 600px 600px; animation: pulse 2.8s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1;} 50% { opacity: .75;} }
+      text, tspan { font-family: Orbitron, Segoe UI, Roboto, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#0b1220"/>
+
+  <!-- Outer ring -->
+  <circle cx="600" cy="600" r="520" fill="none" stroke="url(#g)" stroke-width="3" opacity=".65"/>
+  <circle cx="600" cy="600" r="520" fill="none" stroke="#082a36" stroke-width="16" opacity=".5"/>
+
+  <!-- Tick marks -->
+  <g class="spin-rev" stroke="#7CF8FF" stroke-linecap="round" opacity=".55">
+    <!-- 48 ticks -->
+    <g transform="translate(600,600)">
+      <g id="t"><line x1="0" y1="-520" x2="0" y2="-500" stroke-width="4"/></g>
+      <use href="#t" transform="rotate(7.5)"/><use href="#t" transform="rotate(15)"/><use href="#t" transform="rotate(22.5)"/>
+      <use href="#t" transform="rotate(30)"/><use href="#t" transform="rotate(37.5)"/><use href="#t" transform="rotate(45)"/>
+      <use href="#t" transform="rotate(52.5)"/><use href="#t" transform="rotate(60)"/><use href="#t" transform="rotate(67.5)"/>
+      <use href="#t" transform="rotate(75)"/><use href="#t" transform="rotate(82.5)"/><use href="#t" transform="rotate(90)"/>
+      <use href="#t" transform="rotate(97.5)"/><use href="#t" transform="rotate(105)"/><use href="#t" transform="rotate(112.5)"/>
+      <use href="#t" transform="rotate(120)"/><use href="#t" transform="rotate(127.5)"/><use href="#t" transform="rotate(135)"/>
+      <use href="#t" transform="rotate(142.5)"/><use href="#t" transform="rotate(150)"/><use href="#t" transform="rotate(157.5)"/>
+      <use href="#t" transform="rotate(165)"/><use href="#t" transform="rotate(172.5)"/><use href="#t" transform="rotate(180)"/>
+      <use href="#t" transform="rotate(187.5)"/><use href="#t" transform="rotate(195)"/><use href="#t" transform="rotate(202.5)"/>
+      <use href="#t" transform="rotate(210)"/><use href="#t" transform="rotate(217.5)"/><use href="#t" transform="rotate(225)"/>
+      <use href="#t" transform="rotate(232.5)"/><use href="#t" transform="rotate(240)"/><use href="#t" transform="rotate(247.5)"/>
+      <use href="#t" transform="rotate(255)"/><use href="#t" transform="rotate(262.5)"/><use href="#t" transform="rotate(270)"/>
+      <use href="#t" transform="rotate(277.5)"/><use href="#t" transform="rotate(285)"/><use href="#t" transform="rotate(292.5)"/>
+      <use href="#t" transform="rotate(300)"/><use href="#t" transform="rotate(307.5)"/><use href="#t" transform="rotate(315)"/>
+      <use href="#t" transform="rotate(322.5)"/><use href="#t" transform="rotate(330)"/><use href="#t" transform="rotate(337.5)"/>
+      <use href="#t" transform="rotate(345)"/><use href="#t" transform="rotate(352.5)"/><use href="#t" transform="rotate(360)"/>
+    </g>
+  </g>
+
+  <!-- Center: your existing arc reactor -->
+  <g class="pulse">
+    <image href="./arc-reactor.svg" x="450" y="450" width="300" height="300"/>
+  </g>
+
+  <!-- Labels -->
+  <text x="600" y="150" font-size="24" fill="#9BE8FF" text-anchor="middle">ARC REACTOR CONSOLE — ONLINE</text>
+  <text x="600" y="1055" font-size="14" fill="#74c7ff" text-anchor="middle">Identity: Sriram Prakhya • Role: AI Architect • Mode: Multi-Agent RAG</text>
+
+  <!-- Orbital panels group (rotates slowly) -->
+  <g class="spin-slow">
+    <!-- Top (Focus) -->
+    <g filter="url(#glow)">
+      <rect x="250" y="100" rx="18" ry="18" width="700" height="250" fill="#0f1b2e" stroke="url(#g)" stroke-width="2"/>
+      <image href="../assets/ai-panels/focus.svg" x="260" y="110" width="680" height="230" />
+      <text x="600" y="95" font-size="20" fill="#9BE8FF" text-anchor="middle">FOCUS</text>
+    </g>
+
+    <!-- Left (Spotlight) -->
+    <g filter="url(#glow)" transform="rotate(-120,600,600)">
+      <rect x="250" y="100" rx="18" ry="18" width="700" height="250" fill="#0f1b2e" stroke="url(#g)" stroke-width="2"/>
+      <image href="../assets/ai-panels/spotlight.svg" x="260" y="110" width="680" height="230" />
+      <text x="600" y="95" font-size="20" fill="#9BE8FF" text-anchor="middle">SPOTLIGHT</text>
+    </g>
+
+    <!-- Right (Insight) -->
+    <g filter="url(#glow)" transform="rotate(120,600,600)">
+      <rect x="250" y="100" rx="18" ry="18" width="700" height="250" fill="#0f1b2e" stroke="url(#g)" stroke-width="2"/>
+      <image href="../assets/ai-panels/insight.svg" x="260" y="110" width="680" height="230" />
+      <text x="600" y="95" font-size="20" fill="#9BE8FF" text-anchor="middle">INSIGHT</text>
+    </g>
+  </g>
+
+  <!-- Inner ring and status -->
+  <circle cx="600" cy="600" r="360" fill="none" stroke="#14D9FF" stroke-opacity=".35" stroke-width="6"/>
+  <text x="600" y="1120" font-size="16" fill="#8bdfff" text-anchor="middle">Reactor Status: STABLE • Telemetry Synced • Gemini Panels Live</text>
+</svg>
