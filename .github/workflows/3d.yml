@@ -16,11 +16,10 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         with:
           USERNAME: Ram9199
-          # Optional theme tweaks:
-          # SETTINGS: |
-          #   base: 10
-          #   margin: 4
-          #   theme: neon
+          SETTINGS: |
+             base: 10
+             margin: 4
+             theme: neon
 
       - name: Stage renders under metrics-renders/
         run: |
