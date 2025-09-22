@@ -8,33 +8,30 @@
   <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Spotlight</text>
   <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
   <foreignObject x="28" y="86" width="824" height="138">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">## Enterprise RAG Open-Source Repo Idea:  "VectorHub-RAG"
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">## Enterprise RAG Open-Source Repo Idea:  VectorDB-backed Knowledge Graph with Access Control
 
-**Concept:** A modular and extensible RAG framework leveraging the strengths of Pgvector for persistent vector storage and Qdrant for fast similarity search, allowing for easy swapping of different LLMs and embedding models.
+**Repo Name:**  `enterprise-rag-kg`
 
-**• Value Proposition:**
+**3 Bullet Points:**
 
-* **Flexibility and Extensibility:** Supports easy swapping of embedding models (SentenceTransformers, etc.), LLMs (Llama 2, etc.), and vector databases (switching between Pgvector and Qdrant with minimal code changes). This allows users to optimize for specific needs and cost considerations.  Includes built-in support for various document formats (PDF, DOCX, TXT, etc.).
-* **Enterprise-Grade Features:**  Focuses on robust data management, including user authentication, authorization, and version control for both documents and embeddings.  Provides mechanisms for managing large datasets efficiently, including chunking, deduplication, and efficient indexing strategies.
-* **Simplified Deployment:**  Offers dockerized deployment options and straightforward integration with existing enterprise infrastructure. Includes clear documentation and examples for various use cases.
+* **Value:** This repo provides a complete, scalable, and secure RAG solution leveraging the power of vector databases (pgvector or Qdrant) for semantic search and a knowledge graph for enhanced context and relationship understanding. It includes robust access control mechanisms (e.g., role-based access, data encryption) crucial for enterprise deployment,  unlike many open-source RAG implementations.  It offers a modular design allowing easy integration with existing enterprise systems and data sources.
 
-**• Technology Stack:**
-
-* **Vector Databases:** Pgvector (primary) and Qdrant (optional, for performance comparison/testing).
-* **Embedding Models:** SentenceTransformers (default), with options for others.
-* **LLMs:** LangChain integration for easy LLM swapping (supports Llama 2, OpenAI, etc.).
-* **Backend:** FastAPI (Python) for a robust and scalable API.
-* **Database:** PostgreSQL (for metadata and user management).
-* **Deployment:** Docker &amp; Docker Compose.
+* **Stack:**
+    * **Vector Database:** pgvector (default) or Qdrant (configurable) for efficient similarity search.
+    * **Knowledge Graph Database:** Neo4j (Community Edition) for storing and querying relationships between knowledge pieces.  Alternative graph DBs could be supported.
+    * **Embeddings Model:** Sentence Transformers (Hugging Face).  Easily swappable for other embedding models.
+    * **API Server:** FastAPI (Python) for a clean and efficient API interface.
+    * **Access Control:**  Auth0 (or similar) integration for user authentication and authorization.  Fine-grained access control at the document/knowledge graph level.
+    * **Document Processing:**  Libraries for PDF/text extraction and cleaning.
 
 
-**• Quickstart:**
+* **Quickstart:**  The repo includes a Docker Compose setup for easy local development and testing. A pre-populated knowledge graph (sample data) and a set of documents are provided. The quickstart guide walks users through:
+    1.  Setting up the environment (Docker Compose).
+    2.  Loading sample data into the Vector DB and Knowledge Graph.
+    3.  Making queries via the FastAPI endpoint (example curl commands and a simple Python client are provided).
+    4.  Testing the access control mechanisms by creating users with different roles.
 
-* **Clone the repo and run Docker Compose:**  The `docker-compose.yml` file will set up the entire stack (PostgreSQL, FastAPI server, Pgvector extension).
-* **Upload your documents:** Use the provided API endpoint to upload documents in supported formats.  The system automatically chunks, embeds, and indexes the documents.
-* **Query the RAG system:** Use the API endpoint to submit queries. The system will retrieve relevant documents, generate a concise answer using the chosen LLM, and return the response.  Example API calls and responses will be clearly documented.
 
-
-This project aims to provide a robust, flexible, and easy-to-use open-source RAG solution suitable for enterprise environments, prioritizing modularity and extensibility to cater to diverse needs and preferences.</div>
+This design prioritizes ease of use and extensibility while addressing the security and scalability concerns typical in enterprise environments.  The modular design allows users to swap components based on their specific needs and infrastructure.</div>
   </foreignObject>
 </svg>
