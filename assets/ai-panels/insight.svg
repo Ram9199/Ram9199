@@ -8,6 +8,6 @@
   <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Insight</text>
   <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
   <foreignObject x="28" y="86" width="824" height="138">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">A crucial, often overlooked, aspect of RAG evaluation is assessing hallucination *in context*.  Simply measuring factual accuracy against a gold standard isn't sufficient; evaluate how the hallucination impacts downstream reasoning or the overall agent's decision-making.  Ignoring this contextual impact can mask serious flaws in a seemingly accurate retrieval-augmentation system.  Pitfalls in agent orchestration often stem from inadequate error handling and lack of robust fallback mechanisms when a sub-agent fails.</div>
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">A crucial pitfall in RAG evaluation is neglecting the *hallucination rate's context dependency*.  Simply measuring overall hallucination percentage is insufficient;  analyze hallucination rates *per source type and query type*.  A high rate for a specific source (e.g., unreliable websites) might indicate a need for source reliability scoring within the agent's orchestration, rather than a flaw in the entire system. This targeted analysis allows for more effective system refinement.</div>
   </foreignObject>
 </svg>

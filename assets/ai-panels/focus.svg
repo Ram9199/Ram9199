@@ -8,10 +8,10 @@
   <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Focus</text>
   <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
   <foreignObject x="28" y="86" width="824" height="138">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">* **Refine multi-agent RAG pipeline:** Implement prioritized query routing based on agent expertise to improve response accuracy and efficiency for complex user requests.  Target a 15% reduction in latency.
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">* **Finalize schema for multi-agent communication:**  Define the data structure and message format for seamless information exchange between agents in the RAG pipeline, prioritizing efficiency and error handling.
 
-* **Enhance trustworthy AI orchestration:**  Develop and test a new monitoring system for agent bias detection, focusing on explainability and fairness metrics within the RAG framework.  Aim for 90% coverage of critical agents.
+* **Implement initial trust metrics for agent selection:** Develop a basic framework to score agent reliability based on past performance and data source trustworthiness, ensuring reliable and accountable orchestration.
 
-* **Document key design decisions:**  Finalize and publish the architecture diagram and rationale for the chosen multi-agent and orchestration strategies, including handling of uncertainty and failure scenarios.</div>
+* **Test end-to-end RAG pipeline with diverse queries:**  Execute a series of test queries to validate the integrated multi-agent system, identifying bottlenecks and refining the orchestration logic for improved accuracy and response time.</div>
   </foreignObject>
 </svg>

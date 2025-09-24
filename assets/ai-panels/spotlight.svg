@@ -8,26 +8,32 @@
   <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Spotlight</text>
   <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
   <foreignObject x="28" y="86" width="824" height="138">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">## Enterprise RAG Open-Source Repo Idea:  "VectorHub Enterprise"
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">## Enterprise RAG Open-Source Repo Idea:  "VectorHub-RAG"
 
 **Value Proposition:**
 
-* **Scalable and performant:** Leverages the strengths of pgvector (for smaller to medium-sized datasets) and Qdrant (for large-scale datasets) to provide robust vector search capabilities for RAG applications.  Handles both structured and unstructured data seamlessly, allowing for hybrid knowledge bases.  Includes features for managing access control and data versioning crucial for enterprise deployments.
-* **Modular and extensible:** Designed with a plugin architecture to allow easy integration with various LLMs (e.g., OpenAI, Llama 2, etc.), embedding models (SentenceTransformers, etc.), and data sources (databases, cloud storage).  This flexibility enables adaptation to specific enterprise needs and evolving technologies.
-* **Simplified deployment and management:** Offers pre-built Docker images and comprehensive documentation for easy setup and operation, reducing the barrier to entry for enterprise adoption. Includes monitoring and logging capabilities for enhanced operational visibility and troubleshooting.
+* **Unified Vector Database Support:**  Provides a single, easily configurable RAG framework supporting both pgvector and Qdrant, allowing users to choose the best vector database for their needs (scalability, features, existing infrastructure) without rewriting significant portions of their application.  This allows for easy experimentation and migration between databases.
+* **Modular &amp; Extensible Architecture:**  Designed with plugins for embedding models, document loaders, question answering models, and retrieval augmentations (e.g., reranking, diversity). This allows for easy customization and integration with existing enterprise workflows and specialized models.
+* **Robust &amp; Production-Ready Features:** Offers features crucial for enterprise deployments like comprehensive logging, monitoring, configurable caching, and security considerations.
 
 **Technology Stack:**
 
-* **Vector Databases:** pgvector (PostgreSQL extension) &amp; Qdrant (as a scalable alternative for larger datasets).  Automatic switching based on dataset size is a target feature.
-* **LLMs/Embeddings:**  Abstraction layer supporting multiple LLMs and embedding models via plugins.  Defaults to SentenceTransformers for embeddings.
-* **Backend:** FastAPI (Python) for API endpoints.
-* **Data Storage:**  PostgreSQL (for metadata and structured data), potentially integrations with cloud storage (e.g., AWS S3) for unstructured data.
-* **Deployment:** Docker, Kubernetes (optional, for larger deployments).
+* **Backend:** FastAPI (Python) for a robust and scalable API.
+* **Vector Databases:** pgvector and Qdrant, with easily switchable configuration.
+* **Embedding Models:** Supports Sentence Transformers, Hugging Face models (via transformers library), and allows for easy plugin integration of other models.
+* **Question Answering Models:**  Supports LangChain's various QA chains and allows for custom implementations.
+* **Document Loaders:**  Provides loaders for common document formats (PDF, DOCX, TXT) and allows for custom loaders via plugins.
+* **Caching:** Redis or similar for efficient caching of embeddings and query results.
+* **Deployment:** Docker for easy deployment and portability.
+
 
 **Quickstart:**
 
-* **Clone the repo:** `git clone https://github.com/&lt;your_github&gt;/VectorHub-Enterprise` (replace with actual repo URL).
-* **Docker Compose:**  Run the provided `docker-compose.yml` to spin up the entire stack (PostgreSQL, pgvector/Qdrant, FastAPI backend).
-* **Data Ingestion:** Use the provided scripts or API to ingest your data (both structured and unstructured).  The system automatically determines which vector database to use.  Example included for loading data from CSV files.  Then, query the system via the provided API endpoints.  Detailed tutorials and examples provided in the repository.</div>
+* **Installation:** `pip install vectorhub-rag` followed by a simple configuration file specifying the desired vector database (pgvector or Qdrant) and model parameters.
+* **Data Ingestion:** Use the provided command-line interface or API endpoints to ingest documents from various sources.
+* **Querying:**  Send queries via the API to retrieve relevant answers. Examples showcasing the usage of different components and configurations would be provided.
+
+
+This design prioritizes flexibility and extensibility, crucial characteristics for successful enterprise adoption of RAG systems.  The modular design allows users to select the best components for their specific environment and scale their deployment as needed.</div>
   </foreignObject>
 </svg>
