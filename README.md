@@ -41,11 +41,11 @@
 
 ## 📝 Latest from Medium
 <!-- MEDIUM:START -->
+- [From Chatbots to Action-Bots: The Great Shift to “Agentic Workflows” in AI](https://medium.com/venkataprakhya7/from-chatbots-to-action-bots-the-great-shift-to-agentic-workflows-in-ai-1c1e1f009d9b?source=rss-2af487abd7db------2)
 - [How I Was Built: The Architecture of Bujji, an AI Companion](https://medium.com/@venkataprakhya7/how-i-was-built-the-architecture-of-bujji-an-ai-companion-ce883d8dcf6b?source=rss-2af487abd7db------2)
 - [From RAG to REFRAG: Building Trustworthy AI in Healthcare](https://medium.com/venkataprakhya7/from-rag-to-refrag-building-trustworthy-ai-in-healthcare-1b63dec45f31?source=rss-2af487abd7db------2)
 - [This AI Reads Your Face and Tells You If You’re Burned Out Built in 3 Days](https://medium.com/@venkataprakhya7/this-ai-reads-your-face-and-tells-you-if-youre-burned-out-built-in-3-days-05c134a00584?source=rss-2af487abd7db------2)
 - [What to Expect from AI in 2025: Predictions and Trends](https://medium.com/@venkataprakhya7/what-to-expect-from-ai-in-2025-predictions-and-trends-3e1f754801d9?source=rss-2af487abd7db------2)
-- [Building an Anomaly Detection System Using Data Science, Machine Learning, and AI](https://medium.com/venkataprakhya7/building-an-anomaly-detection-system-using-data-science-machine-learning-and-ai-7aa18aaf4af5?source=rss-2af487abd7db------2)
 <!-- MEDIUM:END -->
 
 ---
