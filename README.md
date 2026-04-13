@@ -98,10 +98,10 @@
   <table>
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Ram9199&show_icons=true&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="GitHub Stats">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ram9199&show_icons=true&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="GitHub Stats">
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ram9199&layout=compact&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&langs_count=10" alt="Top Languages">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ram9199&layout=compact&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&langs_count=10" alt="Top Languages">
       </td>
     </tr>
   </table>
@@ -175,24 +175,24 @@
   <tr>
     <td width="50%">
       <a href="https://github.com/Ram9199/ZoomBurnoutAI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ram9199&repo=ZoomBurnoutAI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="ZoomBurnoutAI">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=ZoomBurnoutAI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="ZoomBurnoutAI">
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/Ram9199/autogen_poc">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ram9199&repo=autogen_poc&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="autogen_poc">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=autogen_poc&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="autogen_poc">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/Ram9199/Performance-AI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ram9199&repo=Performance-AI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="Performance-AI">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=Performance-AI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="Performance-AI">
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/Ram9199/claw-code">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ram9199&repo=claw-code&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="claw-code">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=claw-code&theme=aura&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" alt="claw-code">
       </a>
     </td>
   </tr>
