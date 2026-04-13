@@ -18,18 +18,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate 3D Contribution Graph
-        uses: yoshi3893/github-profile-3d-contrib@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: .github/config/profile-3d.json
-
       - name: Render Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Ram9199
           template: classic
           base: header, activity, community, repositories, metadata
@@ -72,11 +65,3 @@ jobs:
           
           plugin_repositories: yes
           plugin_repositories_featured: Ram9199/ram-ai-orchestrator,Ram9199/healthcare-rag,Ram9199/lluvia-os
-
-      - name: Commit 3D Graph
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib/
-          git diff --staged --quiet || git commit -m "chore: update 3D contribution graph [skip ci]"
-          git push
