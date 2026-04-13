@@ -244,7 +244,7 @@
   
   ## 🏆 System Achievements
   
-  <img src="https://github-profile-trophy.vercel.app/?username=Ram9199&theme=aura&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies">
+  <img src="https://github-trophies.vercel.app/?username=Ram9199&theme=aura&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies">
   
   <br>
   
