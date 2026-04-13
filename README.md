@@ -48,31 +48,36 @@
   
 </div>
 
-```mermaid
-mindmap
-  root((Sriram Prakhya))
-    Multi-Agent AI
-      LangChain
-      AutoGen
-      CrewAI
-    RAG Systems
-      Azure OpenAI
-      pgvector
-      Qdrant
-      Pinecone
-    LLM Engineering
-      LoRA Fine-tuning
-      PEFT
-      Quantization
-    Healthcare AI
-      Trustworthy AI
-      REFRAG Pipelines
-      Clinical Copilots
-    Systems Engineering
-      Lluvia OS
-      Android ROMs
-      Kernel Optimization
-```
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Multi--Agent_AI-32CD32?style=for-the-badge" alt="Multi-Agent AI"><br>
+      <sub>LangChain • AutoGen • CrewAI</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/RAG_Systems-4169E1?style=for-the-badge" alt="RAG Systems"><br>
+      <sub>Azure OpenAI • pgvector • Qdrant • Pinecone</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/LLM_Engineering-FF6B6B?style=for-the-badge" alt="LLM Engineering"><br>
+      <sub>LoRA • PEFT • Quantization</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Healthcare_AI-00CED1?style=for-the-badge" alt="Healthcare AI"><br>
+      <sub>Trustworthy AI • REFRAG • Clinical Copilots</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Systems_Engineering-FF8C00?style=for-the-badge" alt="Systems Engineering"><br>
+      <sub>Lluvia OS • Android ROMs • Kernel Dev</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Cloud_&_DevOps-9B59B6?style=for-the-badge" alt="Cloud & DevOps"><br>
+      <sub>K8s • Docker • Terraform • AWS/GCP/Azure</sub>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
