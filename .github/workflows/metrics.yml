@@ -28,40 +28,34 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
           config_display: large
-          
-          # Plugins
+
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, less
           plugin_languages_details: bytes-size, percentage
           plugin_languages_threshold: 2%
           plugin_languages_colors: github
-          
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          
+
           plugin_activity: yes
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          
+
           plugin_followup: yes
           plugin_followup_sections: repositories
-          
+
           plugin_lines: yes
           plugin_lines_sections: base
           plugin_lines_repositories_limit: 4
-          
+
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: mastered
-          
+
           plugin_stargazers: yes
           plugin_stargazers_charts_type: classic
-          
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_limit: 6
-          
+
           plugin_repositories: yes
-          plugin_repositories_featured: Ram9199/ram-ai-orchestrator,Ram9199/healthcare-rag,Ram9199/lluvia-os
+          plugin_repositories_featured: Ram9199/ZoomBurnoutAI,Ram9199/autogen_poc,Ram9199/Performance-AI
