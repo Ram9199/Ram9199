@@ -1,24 +1,13 @@
-<svg width="880" height="310" xmlns="http://www.w3.org/2000/svg">
+<svg width="880" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00F7FF"/><stop offset="100%" stop-color="#6C2BD9"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="878" height="308" rx="18" fill="#0b1220" stroke="url(#g)" stroke-width="2"/>
-  <text x="30" y="50" font-family="Orbitron,Segoe UI,Arial" font-size="22" font-weight="bold" fill="#9BE8FF">Spotlight</text>
-  <rect x="28" y="64" width="824" height="2" fill="url(#g)"/>
-  <!-- Title -->
-  <text x="28" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#00F7FF" font-weight="bold">Enterprise RAG Open-Source Idea: VectorHub Enterprise</text>
-  <!-- Value prop -->
-  <text x="28" y="118" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">A robust, scalable open-source RAG framework using pgvector + Qdrant, built for</text>
-  <text x="28" y="135" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">security, auditability, and enterprise-grade production environments.</text>
-  <!-- Stack bullets -->
-  <text x="28" y="163" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#00F7FF" font-weight="bold">&#x25B8; Stack</text>
-  <text x="40" y="182" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">Vector DBs: pgvector (structured) + Qdrant (high-dimensional embeddings)</text>
-  <text x="40" y="199" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">LLMs: Abstraction layer supporting OpenAI, HuggingFace Inference API</text>
-  <text x="40" y="216" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">Auth: OAuth 2.0 / LDAP   |   Deploy: Docker + Kubernetes</text>
-  <!-- Key differentiators -->
-  <text x="28" y="244" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#00F7FF" font-weight="bold">&#x25B8; Key Differentiators</text>
-  <text x="40" y="263" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">Fine-grained ACLs, full audit logs, modular document loaders (PDF/DOCX/HTML)</text>
-  <text x="40" y="280" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#CFEFFF">Bridges research RAG implementations with production-grade enterprise needs.</text>
+  <rect x="1" y="1" width="878" height="238" rx="18" fill="#0b1220" stroke="url(#g)" stroke-width="2"/>
+  <text x="30" y="56" font-family="Orbitron,Segoe UI,Arial" font-size="26" fill="#9BE8FF">Spotlight</text>
+  <rect x="28" y="70" width="824" height="2" fill="url(#g)"/>
+  <foreignObject x="28" y="86" width="824" height="138">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font:16px/1.5 Segoe UI, Arial; color:#CFEFFF; white-space:pre-wrap;">Failed to generate content</div>
+  </foreignObject>
 </svg>
