@@ -14,7 +14,7 @@
   [![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/leodaspra)
   [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sriramxleo)
   [![Medium](https://img.shields.io/badge/Medium-111111?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@venkataprakhya7)
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@leodaspra)
+  [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/sriram_prakhya_5ee9dbee94)
 
 </div>
 
@@ -80,25 +80,37 @@
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/Ram9199/ZoomBurnoutAI">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=ZoomBurnoutAI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="ZoomBurnoutAI">
+      <a href="https://github.com/Kisyntra/Agent_Sudo">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Kisyntra&repo=Agent_Sudo&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="Agent_Sudo">
       </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/Ram9199/autogen_poc">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=autogen_poc&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="autogen_poc">
+      <a href="https://github.com/Ram9199/ZoomBurnoutAI">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=ZoomBurnoutAI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="ZoomBurnoutAI">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
+      <a href="https://github.com/Ram9199/autogen_poc">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=autogen_poc&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="autogen_poc">
+      </a>
+    </td>
+    <td width="50%">
       <a href="https://github.com/Ram9199/Performance-AI">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=Performance-AI&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="Performance-AI">
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Ram9199/ardha-frontend-react">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=ardha-frontend-react&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="ardha-frontend-react">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://dev.to/sriram_prakhya_5ee9dbee94/i-let-ai-agents-attack-my-permission-gateway-for-a-week-heres-what-broke-5doa">
+        <img src="https://img.shields.io/badge/Dev.to-Agent_Sudo_red_team_writeup-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to Agent_Sudo red team writeup">
       </a>
     </td>
   </tr>
@@ -123,6 +135,8 @@
 
 ## Writing
 
+- [I Let AI Agents Attack My Permission Gateway for a Week. Here's What Broke.](https://dev.to/sriram_prakhya_5ee9dbee94/i-let-ai-agents-attack-my-permission-gateway-for-a-week-heres-what-broke-5doa)
+
 <!-- MEDIUM:START -->
 - [Building a Permission Gateway for MCP Agents:
 What I Learned After Letting AI Run Local Tools](https://medium.com/venkataprakhya7/building-a-permission-gateway-for-mcp-agents-what-i-learned-after-letting-ai-run-local-tools-b340c0c91d57?source=rss-2af487abd7db------2)
@@ -139,7 +153,6 @@ What I Learned After Letting AI Run Local Tools](https://medium.com/venkataprakh
 <div align="center">
 
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:venkataprakhya7@gmail.com)
-  [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/leodaspra)
 
   <br><br>
 
