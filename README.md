@@ -18,6 +18,16 @@
 
 ---
 
+## Current Focus
+
+I am building **[Agent_Sudo](https://github.com/Kisyntra/Agent_Sudo)** as a solo project: an authorization, delegation, provenance, and verifiable-audit engine for AI agents.
+
+The goal is simple: agents can act, but risky actions need scoped authority, source-aware policy checks, and an audit trail you can verify after the run.
+
+**Proof points:** [GitHub](https://github.com/Kisyntra/Agent_Sudo) · [Latest release v0.5.5](https://github.com/Kisyntra/Agent_Sudo/releases/tag/v0.5.5) · [PyPI](https://pypi.org/project/agent-sudo-mcp/) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=agent-sudo-mcp) · [Glama](https://glama.ai/mcp/servers/Kisyntra/Agent_Sudo) · [Dev.to writeup](https://dev.to/sriram_prakhya_5ee9dbee94/i-let-ai-agents-attack-my-permission-gateway-for-a-week-heres-what-broke-5doa)
+
+---
+
 ## What I Build
 
 <table>
@@ -104,11 +114,6 @@
     <td width="50%">
       <a href="https://github.com/Ram9199/ardha-frontend-react">
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ram9199&repo=ardha-frontend-react&theme=aura&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" alt="ardha-frontend-react">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://dev.to/sriram_prakhya_5ee9dbee94/i-let-ai-agents-attack-my-permission-gateway-for-a-week-heres-what-broke-5doa">
-        <img src="https://img.shields.io/badge/Dev.to-Agent_Sudo_permission_gateway-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to Agent_Sudo permission gateway article">
       </a>
     </td>
   </tr>
