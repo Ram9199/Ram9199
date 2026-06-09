@@ -1,8 +1,6 @@
 <div align="center">
 
-  <img src="./assets/arc-reactor.svg" width="300" alt="Animated arc reactor core">
-
-  <br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:00E5FF,50:2563EB,100:7C3AED&text=Sriram%20Prakhya&fontColor=FFFFFF&fontSize=54&fontAlignY=36&desc=AI%20Systems%20Engineer%20%7C%20Agentic%20AI%20%7C%20RAG%20%7C%20MLOps&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Sriram Prakhya profile banner">
 
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=34&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Sriram+Prakhya;AI+Systems+Engineer;Multi-Agent+%2B+RAG+Builder;Healthcare+AI+%7C+MLOps+%7C+Android+Systems" alt="Typing intro">
 
