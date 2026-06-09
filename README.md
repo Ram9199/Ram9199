@@ -110,7 +110,7 @@
     </td>
     <td width="50%">
       <a href="https://dev.to/sriram_prakhya_5ee9dbee94/i-let-ai-agents-attack-my-permission-gateway-for-a-week-heres-what-broke-5doa">
-        <img src="https://img.shields.io/badge/Dev.to-Agent_Sudo_red_team_writeup-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to Agent_Sudo red team writeup">
+        <img src="https://img.shields.io/badge/Dev.to-Agent_Sudo_permission_gateway-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to Agent_Sudo permission gateway article">
       </a>
     </td>
   </tr>
